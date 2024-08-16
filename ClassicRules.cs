@@ -6,7 +6,7 @@ using UiPath.Studio.Analyzer.Models;
 
 namespace WorkflowAnalyzerTST
 {
-    public class RulesRepo : IRegisterAnalyzerConfiguration
+    public class ClassicRules : IRegisterAnalyzerConfiguration
     {
         public void Initialize(IAnalyzerConfigurationService workflowAnalyzerConfigurationService)
         {

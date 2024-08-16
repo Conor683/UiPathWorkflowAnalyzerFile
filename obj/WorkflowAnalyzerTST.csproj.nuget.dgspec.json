@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\WorkflowAnalyzerTST.csproj": {}
+    "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerTST.csproj": {}
   },
   "projects": {
-    "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\WorkflowAnalyzerTST.csproj": {
+    "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerTST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\WorkflowAnalyzerTST.csproj",
+        "projectUniqueName": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerTST.csproj",
         "projectName": "WorkflowAnalyzerTST",
-        "projectPath": "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\WorkflowAnalyzerTST.csproj",
+        "projectPath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerTST.csproj",
         "packagesPath": "C:\\Users\\conor\\.nuget\\packages\\",
-        "outputPath": "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\obj\\",
+        "outputPath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
