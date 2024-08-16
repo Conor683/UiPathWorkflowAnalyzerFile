@@ -1,0 +1,228 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "UiPath.Activities.Api/24.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/UiPath.Activities.Api.Base.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Api.Base.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Robot.Activities.Api.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Studio.Activities.Api.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Studio.Api.Base.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/UiPath.Activities.Api.Base.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Api.Base.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Robot.Activities.Api.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Studio.Activities.Api.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net8.0/UiPath.Studio.Api.Base.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/uipath.activities.api.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UiPath.Activities.Api/24.10.1": {
+      "sha512": "OaIld5AYifsZ1TobA843F1tE4HmXVbVeWwBF7aYQNBZASkDJGU5+pfvrF/6f5pBzeVSnXCpxlelGBrtbd46CSw==",
+      "type": "package",
+      "path": "uipath.activities.api/24.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/uipath.activities.api.targets",
+        "lib/net461/UiPath.Activities.Api.Base.dll",
+        "lib/net461/UiPath.Activities.Api.Base.pdb",
+        "lib/net461/UiPath.Activities.Api.Base.xml",
+        "lib/net461/UiPath.Api.Base.dll",
+        "lib/net461/UiPath.Api.Base.pdb",
+        "lib/net461/UiPath.Api.Base.xml",
+        "lib/net461/UiPath.Api.Package.pdb",
+        "lib/net461/UiPath.Api.Package.xml",
+        "lib/net461/UiPath.Robot.Activities.Api.dll",
+        "lib/net461/UiPath.Robot.Activities.Api.pdb",
+        "lib/net461/UiPath.Robot.Activities.Api.xml",
+        "lib/net461/UiPath.Studio.Activities.Api.dll",
+        "lib/net461/UiPath.Studio.Activities.Api.pdb",
+        "lib/net461/UiPath.Studio.Activities.Api.xml",
+        "lib/net461/UiPath.Studio.Api.Base.dll",
+        "lib/net461/UiPath.Studio.Api.Base.pdb",
+        "lib/net461/UiPath.Studio.Api.Base.xml",
+        "lib/net6.0-windows7.0/UiPath.Activities.Api.Base.dll",
+        "lib/net6.0-windows7.0/UiPath.Activities.Api.Base.pdb",
+        "lib/net6.0-windows7.0/UiPath.Activities.Api.Base.xml",
+        "lib/net6.0-windows7.0/UiPath.Api.Base.dll",
+        "lib/net6.0-windows7.0/UiPath.Api.Base.pdb",
+        "lib/net6.0-windows7.0/UiPath.Api.Base.xml",
+        "lib/net6.0-windows7.0/UiPath.Api.Package.pdb",
+        "lib/net6.0-windows7.0/UiPath.Api.Package.xml",
+        "lib/net6.0-windows7.0/UiPath.Robot.Activities.Api.dll",
+        "lib/net6.0-windows7.0/UiPath.Robot.Activities.Api.pdb",
+        "lib/net6.0-windows7.0/UiPath.Robot.Activities.Api.xml",
+        "lib/net6.0-windows7.0/UiPath.Studio.Activities.Api.dll",
+        "lib/net6.0-windows7.0/UiPath.Studio.Activities.Api.pdb",
+        "lib/net6.0-windows7.0/UiPath.Studio.Activities.Api.xml",
+        "lib/net6.0-windows7.0/UiPath.Studio.Api.Base.dll",
+        "lib/net6.0-windows7.0/UiPath.Studio.Api.Base.pdb",
+        "lib/net6.0-windows7.0/UiPath.Studio.Api.Base.xml",
+        "lib/net6.0/UiPath.Activities.Api.Base.dll",
+        "lib/net6.0/UiPath.Activities.Api.Base.pdb",
+        "lib/net6.0/UiPath.Activities.Api.Base.xml",
+        "lib/net6.0/UiPath.Api.Base.dll",
+        "lib/net6.0/UiPath.Api.Base.pdb",
+        "lib/net6.0/UiPath.Api.Base.xml",
+        "lib/net6.0/UiPath.Api.Package.pdb",
+        "lib/net6.0/UiPath.Api.Package.xml",
+        "lib/net6.0/UiPath.Robot.Activities.Api.dll",
+        "lib/net6.0/UiPath.Robot.Activities.Api.pdb",
+        "lib/net6.0/UiPath.Robot.Activities.Api.xml",
+        "lib/net6.0/UiPath.Studio.Activities.Api.dll",
+        "lib/net6.0/UiPath.Studio.Activities.Api.pdb",
+        "lib/net6.0/UiPath.Studio.Activities.Api.xml",
+        "lib/net6.0/UiPath.Studio.Api.Base.dll",
+        "lib/net6.0/UiPath.Studio.Api.Base.pdb",
+        "lib/net6.0/UiPath.Studio.Api.Base.xml",
+        "lib/net8.0-windows7.0/UiPath.Activities.Api.Base.dll",
+        "lib/net8.0-windows7.0/UiPath.Activities.Api.Base.pdb",
+        "lib/net8.0-windows7.0/UiPath.Activities.Api.Base.xml",
+        "lib/net8.0-windows7.0/UiPath.Api.Base.dll",
+        "lib/net8.0-windows7.0/UiPath.Api.Base.pdb",
+        "lib/net8.0-windows7.0/UiPath.Api.Base.xml",
+        "lib/net8.0-windows7.0/UiPath.Api.Package.pdb",
+        "lib/net8.0-windows7.0/UiPath.Api.Package.xml",
+        "lib/net8.0-windows7.0/UiPath.Robot.Activities.Api.dll",
+        "lib/net8.0-windows7.0/UiPath.Robot.Activities.Api.pdb",
+        "lib/net8.0-windows7.0/UiPath.Robot.Activities.Api.xml",
+        "lib/net8.0-windows7.0/UiPath.Studio.Activities.Api.dll",
+        "lib/net8.0-windows7.0/UiPath.Studio.Activities.Api.pdb",
+        "lib/net8.0-windows7.0/UiPath.Studio.Activities.Api.xml",
+        "lib/net8.0-windows7.0/UiPath.Studio.Api.Base.dll",
+        "lib/net8.0-windows7.0/UiPath.Studio.Api.Base.pdb",
+        "lib/net8.0-windows7.0/UiPath.Studio.Api.Base.xml",
+        "lib/net8.0/UiPath.Activities.Api.Base.dll",
+        "lib/net8.0/UiPath.Activities.Api.Base.pdb",
+        "lib/net8.0/UiPath.Activities.Api.Base.xml",
+        "lib/net8.0/UiPath.Api.Base.dll",
+        "lib/net8.0/UiPath.Api.Base.pdb",
+        "lib/net8.0/UiPath.Api.Base.xml",
+        "lib/net8.0/UiPath.Api.Package.pdb",
+        "lib/net8.0/UiPath.Api.Package.xml",
+        "lib/net8.0/UiPath.Robot.Activities.Api.dll",
+        "lib/net8.0/UiPath.Robot.Activities.Api.pdb",
+        "lib/net8.0/UiPath.Robot.Activities.Api.xml",
+        "lib/net8.0/UiPath.Studio.Activities.Api.dll",
+        "lib/net8.0/UiPath.Studio.Activities.Api.pdb",
+        "lib/net8.0/UiPath.Studio.Activities.Api.xml",
+        "lib/net8.0/UiPath.Studio.Api.Base.dll",
+        "lib/net8.0/UiPath.Studio.Api.Base.pdb",
+        "lib/net8.0/UiPath.Studio.Api.Base.xml",
+        "uipath.activities.api.24.10.1.nupkg.sha512",
+        "uipath.activities.api.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "UiPath.Activities.Api >= 24.10.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\conor\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\WorkflowAnalyzerTST.csproj",
+      "projectName": "WorkflowAnalyzerTST",
+      "projectPath": "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\WorkflowAnalyzerTST.csproj",
+      "packagesPath": "C:\\Users\\conor\\.nuget\\packages\\",
+      "outputPath": "B:\\UiPath Pish\\Workflow Analyzer Files\\WorkflowAnalyzerTST\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\conor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://myget.org/F/workflow": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "UiPath.Activities.Api": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[24.10.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
