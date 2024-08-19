@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using static WorkflowAnalyzerTST.ClassicRules;
+using UiPath.Studio.Activities.Api.Analyzer;
+using UiPath.Studio.Activities.Api;
 
 namespace WorkflowAnalyzerTST
 {
-    internal class RulesRegister
+    public class Register : IRegisterAnalyzerConfiguration
     {
+        public void Initialize(IAnalyzerConfigurationService workflowAnalyzerConfigurationService)
+        {
+            if (!workflowAnalyzerConfigurationService.HasFeature("ObjectRepositoryV1"))
+                return;
+            else
+                workflowAnalyzerConfigurationService.AddCounter(NumberOfClassicActivitiesInFile.Get());
+                workflowAnalyzerConfigurationService.AddRule(ClassicActivitiesRule.Get());
+        }
     }
 }

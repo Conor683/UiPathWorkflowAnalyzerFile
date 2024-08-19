@@ -6,16 +6,8 @@ using UiPath.Studio.Analyzer.Models;
 
 namespace WorkflowAnalyzerTST
 {
-    public class ClassicRules : IRegisterAnalyzerConfiguration
+    public class ClassicRules
     {
-        public void Initialize(IAnalyzerConfigurationService workflowAnalyzerConfigurationService)
-        {
-            if (!workflowAnalyzerConfigurationService.HasFeature("ObjectRepositoryV1"))
-                return;
-
-            workflowAnalyzerConfigurationService.AddCounter(NumberOfClassicActivitiesInFile.Get());
-            workflowAnalyzerConfigurationService.AddRule(ClassicActivitiesRule.Get());
-        }
 
         // This static class is not mandatory. It just helps organizining the code.
         internal static class ClassicActivitiesRule

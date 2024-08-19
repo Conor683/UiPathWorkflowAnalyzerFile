@@ -10,3 +10,16 @@ B:\UiPath Pish\Workflow Analyzer Files\WorkflowAnalyzerTST\obj\Debug\net8.0\refi
 B:\UiPath Pish\Workflow Analyzer Files\WorkflowAnalyzerTST\obj\Debug\net8.0\WorkflowAnalyzerTST.pdb
 B:\UiPath Pish\Workflow Analyzer Files\WorkflowAnalyzerTST\obj\Debug\net8.0\ref\WorkflowAnalyzerTST.dll
 B:\UiPath Pish\Workflow Analyzer Files\WorkflowAnalyzerTST\obj\Debug\net8.0\WorkflowAnalyzerTST.csproj.AssemblyReference.cache
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\bin\Debug\net8.0\WorkflowAnalyzerTST.deps.json
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\bin\Debug\net8.0\WorkflowAnalyzerTST.dll
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\bin\Debug\net8.0\WorkflowAnalyzerTST.pdb
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.csproj.AssemblyReference.cache
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.GeneratedMSBuildEditorConfig.editorconfig
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.AssemblyInfoInputs.cache
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.AssemblyInfo.cs
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.csproj.CoreCompileInputs.cache
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.sourcelink.json
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.dll
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\refint\WorkflowAnalyzerTST.dll
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerTST.pdb
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\ref\WorkflowAnalyzerTST.dll
