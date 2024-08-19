@@ -32,7 +32,7 @@ namespace WorkflowAnalyzerTST
                 var messageList = new List<string>();
                 if ((activity.Type.ToLower().Contains("uiautomation")) && (!activity.SupportsObjectReferences))
                 {
-                    messageList.Add($"The activity {activity.DisplayName} has been flagged as potentially classic");
+                    messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially classic");
                 }
                 if (messageList.Count > 0)
                 {
