@@ -59,7 +59,7 @@ namespace WorkflowAnalyzerTST
 
             internal static Counter<IActivityModel> Get()
             {
-                return new Counter<IActivityModel>("COUNTER NAME", RuleId, Inspect);
+                return new Counter<IActivityModel>("Classic Activity Counter", RuleId, Inspect);
             }
 
             // A Counter<T> receives the entire collection of T objects in the parent structure. e.g. activities in workflow, workflows in project.
