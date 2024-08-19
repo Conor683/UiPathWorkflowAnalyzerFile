@@ -8,11 +8,13 @@ namespace WorkflowAnalyzerTST
     {
         public void Initialize(IAnalyzerConfigurationService workflowAnalyzerConfigurationService)
         {
+            workflowAnalyzerConfigurationService.AddCounter(NumberOfClassicActivitiesInFile.Get());
+            workflowAnalyzerConfigurationService.AddRule(ClassicActivitiesRule.Get());
             if (!workflowAnalyzerConfigurationService.HasFeature("ObjectRepositoryV1"))
                 return;
-            else
-                workflowAnalyzerConfigurationService.AddCounter(NumberOfClassicActivitiesInFile.Get());
-                workflowAnalyzerConfigurationService.AddRule(ClassicActivitiesRule.Get());
+            else;
+                //workflowAnalyzerConfigurationService.AddCounter(NumberOfClassicActivitiesInFile.Get());
+                //workflowAnalyzerConfigurationService.AddRule(ClassicActivitiesRule.Get());
         }
     }
 }
