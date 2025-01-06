@@ -30,7 +30,7 @@ namespace WorkflowAnalyzerTST
             private static InspectionResult Inspect(IActivityModel activity, Rule ruleInstance)
             {
                 var messageList = new List<string>();
-                if ((activity.Type.ToLower().Contains("uiautomation")) && ((activity.ToolboxName.ToLower().Contains("screenshot")) | (activity.ToolboxName.ToLower().Contains("image"))))
+                if ((activity.Type.ToLower().Contains("uiautomation")) && ((activity.ToolboxName.ToLower().Contains("screenshot")) | (activity.ToolboxName.ToLower().Contains("saveimage"))))
                 {
                     messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially storing PII");
                 }
