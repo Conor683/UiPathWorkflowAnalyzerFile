@@ -1,4 +1,5 @@
 ﻿using static WorkflowAnalyzerTST.ClassicRules;
+using static WorkflowAnalyzerTST.ScreenshotRules;
 using UiPath.Studio.Activities.Api.Analyzer;
 using UiPath.Studio.Activities.Api;
 
@@ -13,6 +14,11 @@ namespace WorkflowAnalyzerTST
             else
                 workflowAnalyzerConfigurationService.AddCounter(NumberOfClassicActivitiesInFile.Get());
                 workflowAnalyzerConfigurationService.AddRule(ClassicActivitiesRule.Get());
+
+            if (!workflowAnalyzerConfigurationService.HasFeature("WorkflowAnalyzerV6"))
+                return;
+            else
+                workflowAnalyzerConfigurationService.AddRule(ScreenshotActivitiesRule.Get());
         }
     }
 }

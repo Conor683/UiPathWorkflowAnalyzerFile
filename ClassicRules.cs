@@ -30,7 +30,7 @@ namespace WorkflowAnalyzerTST
             private static InspectionResult Inspect(IActivityModel activity, Rule ruleInstance)
             {
                 var messageList = new List<string>();
-                if ((activity.Type.ToLower().Contains("uiautomation")) && (!activity.SupportsObjectReferences) && (!activity.ToolboxName.ToLower().Contains("screenshot")))
+                if ((activity.Type.ToLower().Contains("uiautomation")) && (!activity.SupportsObjectReferences) && ((!activity.ToolboxName.ToLower().Contains("screenshot"))&&(!activity.ToolboxName.ToLower().Contains("image"))))
                 {
                     messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially classic");
                 }
@@ -69,7 +69,7 @@ namespace WorkflowAnalyzerTST
 
                 foreach (var activity in activities)
                 {
-                    if ((activity.Type.ToLower().Contains("uiautomation"))&&(!activity.SupportsObjectReferences) && (!activity.ToolboxName.ToLower().Contains("screenshot")))
+                    if ((activity.Type.ToLower().Contains("uiautomation")) && (!activity.SupportsObjectReferences) && ((!activity.ToolboxName.ToLower().Contains("screenshot")) && (!activity.ToolboxName.ToLower().Contains("image"))))
                     {
                         ClassicActivities++;
                     }
@@ -86,6 +86,6 @@ namespace WorkflowAnalyzerTST
                 };
             }
         }
-
+        
     }
 }
