@@ -4,8 +4,12 @@ A custom workflow analyzer file I made based on UiPath templates. The individual
 The goal of this project is that it can eventually be used as a template to understand how to effectively implement new rules and to speed up the development process.
 
 ## Getting Started
+In order to develop using the UiPath studio API you will need to install these dependencies in your IDE.
+
+
 
 ## Adding a rule
+
 The first thing you need to do in order to add a rule is import the correct studio api classes, the classes you may need to import are:
   - using UiPath.Studio.Activities.Api;
   - using UiPath.Studio.Activities.Api.Analyzer;
@@ -13,17 +17,23 @@ The first thing you need to do in order to add a rule is import the correct stud
   - using UiPath.Studio.Analyzer.Models;
 
 Once you've done this you simply need to add the code for your rule to the C# code file you're working from, an example of the code for a rule that can detect classic activities being used in a poject is below.
+
 ![image](https://github.com/user-attachments/assets/7d226d3e-8f9a-47a8-a7ba-1a2f9fb71e4d)
 
 Finally the rule must be added to the register like so:
+
 ![image](https://github.com/user-attachments/assets/6dfd79be-4aba-4e75-a99f-a5aebdad06f7)
 
 You can see which features you need by peaking at the definition of the methods and classes you've used from the studio API.
 
 ## Using the project
+
 When compiled the project should output a dll file that can be placed in any folder to be picked up by a UiPath Studio instance. To point studio to the folder configure it in the application's settings page the navigation is as follows **Settings>Locations>Custom Workflow Analyzer rules location**.
+
 ![image](https://github.com/user-attachments/assets/14d551eb-083d-4b29-8766-258bd1a50e1c)
+
 This will only need to be configured to point at a folder and not the specific file. The dll files in this folder will now be picked up by studio at runtime and the rules contained in them should appear in the analyzer like this.
+
 ![image](https://github.com/user-attachments/assets/c31a78a1-e124-4272-9cba-ed911a976513)
 
 
