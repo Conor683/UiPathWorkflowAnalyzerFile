@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hPUyYFcrIWI=",
+  "dgSpecHash": "1t5pwiGGnY0=",
   "success": true,
-  "projectFilePath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerTST.csproj",
+  "projectFilePath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerRulesFile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\conor\\.nuget\\packages\\uipath.activities.api\\24.10.1\\uipath.activities.api.24.10.1.nupkg.sha512"
   ],

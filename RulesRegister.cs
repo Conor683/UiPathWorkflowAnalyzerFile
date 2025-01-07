@@ -1,10 +1,10 @@
-﻿using static WorkflowAnalyzerTST.ClassicRules;
-using static WorkflowAnalyzerTST.SensitiveDataRules;
-using static WorkflowAnalyzerTST.LoopRules;
+﻿using static WorkflowAnalyzerRules.ClassicRules;
+using static WorkflowAnalyzerRules.SensitiveDataRules;
+using static WorkflowAnalyzerRules.LoopRules;
 using UiPath.Studio.Activities.Api.Analyzer;
 using UiPath.Studio.Activities.Api;
 
-namespace WorkflowAnalyzerTST
+namespace WorkflowAnalyzerRules
 {
     public class Register : IRegisterAnalyzerConfiguration
     {

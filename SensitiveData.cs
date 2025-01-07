@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using UiPath.Studio.Activities.Api.Analyzer.Rules;
 using UiPath.Studio.Analyzer.Models;
 
-namespace WorkflowAnalyzerTST
+namespace WorkflowAnalyzerRules
 {
     internal class SensitiveDataRules
     {

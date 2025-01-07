@@ -1,0 +1,13 @@
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\bin\Debug\net8.0\WorkflowAnalyzerRulesFile.deps.json
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\bin\Debug\net8.0\WorkflowAnalyzerRulesFile.dll
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\bin\Debug\net8.0\WorkflowAnalyzerRulesFile.pdb
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.csproj.AssemblyReference.cache
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.GeneratedMSBuildEditorConfig.editorconfig
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.AssemblyInfoInputs.cache
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.AssemblyInfo.cs
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.csproj.CoreCompileInputs.cache
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.sourcelink.json
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.dll
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\refint\WorkflowAnalyzerRulesFile.dll
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\WorkflowAnalyzerRulesFile.pdb
+B:\UiPath Pish\Github\CQWorkflowAnalyzer\obj\Debug\net8.0\ref\WorkflowAnalyzerRulesFile.dll

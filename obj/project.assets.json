@@ -155,9 +155,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerTST.csproj",
-      "projectName": "WorkflowAnalyzerTST",
-      "projectPath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerTST.csproj",
+      "projectUniqueName": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerRulesFile.csproj",
+      "projectName": "WorkflowAnalyzerRulesFile",
+      "projectPath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\WorkflowAnalyzerRulesFile.csproj",
       "packagesPath": "C:\\Users\\conor\\.nuget\\packages\\",
       "outputPath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\obj\\",
       "projectStyle": "PackageReference",
