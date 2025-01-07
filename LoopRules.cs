@@ -29,8 +29,8 @@ namespace WorkflowAnalyzerTST
             // The rule instance is the rule provided above which also contains the user-configured data.
             private static InspectionResult Inspect(IActivityModel activity, Rule ruleInstance)
             {
-                var messageList = new List<string>();                    
-                if (activity.ToolboxName.ToLower().Contains("foreach") | activity.ToolboxName.ToLower().Contains("while"))
+                var messageList = new List<string>();
+                if (activity.ToolboxName.ToLower().Contains("while"))
                 {
                     foreach (IArgumentModel property in activity.Arguments)
                     {
