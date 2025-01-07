@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkflowAnalyzerTST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1af7e5c06c8b135b095d3566b7a8ca0f4c0a5af3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5567fd4d646b980cb37aac71a7bfc89d16bb4d58")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkflowAnalyzerTST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkflowAnalyzerTST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

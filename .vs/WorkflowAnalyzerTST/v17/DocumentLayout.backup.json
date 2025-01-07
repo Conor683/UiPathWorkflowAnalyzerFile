@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|b:\\uipath pish\\github\\cqworkflowanalyzer\\classicrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|solutionrelative:classicrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|b:\\uipath pish\\github\\cqworkflowanalyzer\\rulesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|solutionrelative:rulesregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|b:\\uipath pish\\github\\cqworkflowanalyzer\\screenshotrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|solutionrelative:screenshotrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|b:\\uipath pish\\github\\cqworkflowanalyzer\\classicrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|solutionrelative:classicrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|b:\\uipath pish\\github\\cqworkflowanalyzer\\looprules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|solutionrelative:looprules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|b:\\uipath pish\\github\\cqworkflowanalyzer\\sensitivedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC7CDEB-6AF4-4B72-80EB-18D3D5AD61EB}|WorkflowAnalyzerTST.csproj|solutionrelative:sensitivedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScreenshotRules.cs",
-              "DocumentMoniker": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\ScreenshotRules.cs",
-              "RelativeDocumentMoniker": "ScreenshotRules.cs",
-              "ToolTip": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\ScreenshotRules.cs",
-              "RelativeToolTip": "ScreenshotRules.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAACzAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SensitiveData.cs",
+              "DocumentMoniker": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\SensitiveData.cs",
+              "RelativeDocumentMoniker": "SensitiveData.cs",
+              "ToolTip": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\SensitiveData.cs",
+              "RelativeToolTip": "SensitiveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T15:07:07.264Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoopRules.cs",
+              "DocumentMoniker": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\LoopRules.cs",
+              "RelativeDocumentMoniker": "LoopRules.cs",
+              "ToolTip": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\LoopRules.cs",
+              "RelativeToolTip": "LoopRules.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T11:10:19.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RulesRegister.cs",
-              "DocumentMoniker": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\RulesRegister.cs",
-              "RelativeDocumentMoniker": "RulesRegister.cs",
-              "ToolTip": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\RulesRegister.cs",
-              "RelativeToolTip": "RulesRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:27:12.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ClassicRules.cs",
               "DocumentMoniker": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\ClassicRules.cs",
               "RelativeDocumentMoniker": "ClassicRules.cs",
               "ToolTip": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\ClassicRules.cs",
               "RelativeToolTip": "ClassicRules.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEcAAADiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T10:26:48.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RulesRegister.cs",
+              "DocumentMoniker": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\RulesRegister.cs",
+              "RelativeDocumentMoniker": "RulesRegister.cs",
+              "ToolTip": "B:\\UiPath Pish\\Github\\CQWorkflowAnalyzer\\RulesRegister.cs",
+              "RelativeToolTip": "RulesRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T10:27:12.23Z",
               "EditorCaption": ""
             }
           ]

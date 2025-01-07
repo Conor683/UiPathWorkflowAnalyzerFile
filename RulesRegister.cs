@@ -1,5 +1,6 @@
 ﻿using static WorkflowAnalyzerTST.ClassicRules;
-using static WorkflowAnalyzerTST.ScreenshotRules;
+using static WorkflowAnalyzerTST.SensitiveDataRules;
+using static WorkflowAnalyzerTST.LoopRules;
 using UiPath.Studio.Activities.Api.Analyzer;
 using UiPath.Studio.Activities.Api;
 
@@ -19,6 +20,7 @@ namespace WorkflowAnalyzerTST
                 return;
             else
                 workflowAnalyzerConfigurationService.AddRule(ScreenshotActivitiesRule.Get());
+                workflowAnalyzerConfigurationService.AddRule(MaxIterationsRule.Get());
         }
     }
 }

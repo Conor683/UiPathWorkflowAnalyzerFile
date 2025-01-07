@@ -18,7 +18,7 @@ namespace WorkflowAnalyzerTST
             {
                 var rule = new Rule<IActivityModel>("Classic Activities Disallowed", RuleId, Inspect)
                 {
-                    RecommendationMessage = "Replace with a modern design experience counterpart",
+                    RecommendationMessage = "Replace with a modern design experience counterpart.",
                     /// Off and Verbose are not supported.
                     ErrorLevel = System.Diagnostics.TraceLevel.Error
                 };
@@ -32,7 +32,7 @@ namespace WorkflowAnalyzerTST
                 var messageList = new List<string>();
                 if ((activity.Type.ToLower().Contains("uiautomation")) && (!activity.SupportsObjectReferences) && ((!activity.ToolboxName.ToLower().Contains("screenshot"))&&(!activity.ToolboxName.ToLower().Contains("saveimage"))))
                 {
-                    messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially classic");
+                    messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially classic.");
                 }
                 if (messageList.Count > 0)
                 {

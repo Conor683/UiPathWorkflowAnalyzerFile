@@ -8,7 +8,7 @@ using UiPath.Studio.Analyzer.Models;
 
 namespace WorkflowAnalyzerTST
 {
-    internal class ScreenshotRules
+    internal class SensitiveDataRules
     {
         internal static class ScreenshotActivitiesRule
         {
@@ -18,7 +18,7 @@ namespace WorkflowAnalyzerTST
             {
                 var rule = new Rule<IActivityModel>("Screenshotting Activities Should be Removed", RuleId, Inspect)
                 {
-                    RecommendationMessage = "Remove to avoid capturing PII",
+                    RecommendationMessage = "Remove activity to avoid capturing sensitive data.",
                     /// Off and Verbose are not supported.
                     ErrorLevel = System.Diagnostics.TraceLevel.Error
                 };
@@ -32,7 +32,7 @@ namespace WorkflowAnalyzerTST
                 var messageList = new List<string>();
                 if ((activity.Type.ToLower().Contains("uiautomation")) && ((activity.ToolboxName.ToLower().Contains("screenshot")) | (activity.ToolboxName.ToLower().Contains("saveimage"))))
                 {
-                    messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially storing PII");
+                    messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially saving PII.");
                 }
                 if (messageList.Count > 0)
                 {
