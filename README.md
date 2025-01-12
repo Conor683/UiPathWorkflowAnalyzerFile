@@ -4,9 +4,19 @@ A custom workflow analyzer file I made based on UiPath templates. The individual
 The goal of this project is that it can eventually be used as a template to understand how to effectively implement new rules and to speed up the development process.
 
 ## Getting Started
-In order to develop using the UiPath studio API you will need to install these dependencies in your IDE.
+In order to develop using the UiPath studio API you will need to install the "UiPath.Activities.API" Nuget package in your IDE. To do this in Visual Sudio 2022 click on project in the top nav bar and go to manage nuget packages.
+![image](https://github.com/user-attachments/assets/50facd80-9f4e-45d5-b4a2-42f13d4d030a)
 
+Then add the uipath package source to your IDE by clicking the settings cog next to package source.
+ ![image](https://github.com/user-attachments/assets/759545d9-7afc-47fc-ad7c-8861c8ace49d)
 
+Add the following if it's not already present and click "OK"
+![image](https://github.com/user-attachments/assets/762b5a22-95ae-4fec-ab50-d07094821bc3)
+
+Once this is done you can change the package source to the uipath official and simply search for and install the passage.
+![image](https://github.com/user-attachments/assets/66c2b8c8-d9a2-47b1-983e-ab385fa527bf)
+
+You are now ready to begin working on your custom workflow analyzer rules file, this package is also the required package for building your own custom UiPath activities.
 
 ## Adding a rule
 
