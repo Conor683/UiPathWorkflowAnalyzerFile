@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UiPath.Studio.Activities.Api.Analyzer.Rules;
+﻿using UiPath.Studio.Activities.Api.Analyzer.Rules;
 using UiPath.Studio.Analyzer.Models;
 
 namespace WorkflowAnalyzerRules
