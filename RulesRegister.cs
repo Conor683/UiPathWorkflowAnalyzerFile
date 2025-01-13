@@ -21,6 +21,8 @@ namespace WorkflowAnalyzerRules
             else
                 workflowAnalyzerConfigurationService.AddRule(ScreenshotActivitiesRule.Get());
                 workflowAnalyzerConfigurationService.AddRule(MaxIterationsRule.Get());
+                workflowAnalyzerConfigurationService.AddRule(NumOfRetriesRule.Get());
         }
     }
 }
+
