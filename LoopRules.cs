@@ -73,11 +73,11 @@ namespace WorkflowAnalyzerRules
             private static InspectionResult Inspect(IActivityModel activity, Rule ruleInstance)
             {
                 var messageList = new List<string>();
-                if (activity.ToolboxName.ToLower().Contains("retry scope"))
+                if (activity.ToolboxName.ToLower().Contains("retryscope"))
                 {
                     foreach (IArgumentModel property in activity.Arguments)
                     {
-                        if (property.DisplayName == "Number Of Retries" && property.DefinedExpression == null)
+                        if (property.DisplayName.ToLower().Trim() == "number of retries" && property.DefinedExpression == null)
                             messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as having an empty ''number of retries'' property.");
                     }
                 }
