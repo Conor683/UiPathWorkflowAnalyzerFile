@@ -30,7 +30,7 @@ The first thing you need to do in order to add a rule is import the correct stud
   - using UiPath.Studio.Activities.Api.Analyzer.Rules;
   - using UiPath.Studio.Analyzer.Models;
 
-Once you've done this you simply need to add the code for your rule to the C# code file you're working from, an example of the code for a rule that can detect classic activities being used in a poject is below.
+Once you've done this you simply need to add the code for your rule to the C# code file you're working from, an example of the code for a rule that can detect classic activities being used in a project is below.
 
 ![image](https://github.com/user-attachments/assets/7d226d3e-8f9a-47a8-a7ba-1a2f9fb71e4d)
 
