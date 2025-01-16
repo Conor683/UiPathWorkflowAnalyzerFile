@@ -27,7 +27,7 @@ namespace WorkflowAnalyzerRules
             private static InspectionResult Inspect(IActivityModel activity, Rule ruleInstance)
             {
                 var messageList = new List<string>();
-                if ((activity.Type.ToLower().Contains("uiautomation")) && (activity.SupportsObjectReferences) && activity.ObjectReferences.Any())
+                if ((activity.Type.ToLower().Contains("uiautomation")) && (activity.SupportsObjectReferences) && !activity.ObjectReferences.Any())
                 {
                     messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as not using object references.");
                 }
