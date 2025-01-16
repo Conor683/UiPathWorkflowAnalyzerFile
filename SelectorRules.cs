@@ -3,17 +3,19 @@ using UiPath.Studio.Analyzer.Models;
 
 namespace WorkflowAnalyzerRules
 {
-    internal class SensitiveDataRules
+    public class SelectorRules
     {
-        internal static class ScreenshotActivitiesRule
+
+        // This static class is not mandatory. It just helps organizining the code.
+        internal static class ObjectRepoUsageRule
         {
             // This should be as unique as possible, and should follow the naming convention.
-            private const string RuleId = "SG-SCS-001";
+            private const string RuleId = "SG-SEL-001";
             internal static Rule<IActivityModel> Get()
             {
-                var rule = new Rule<IActivityModel>("Screenshotting Activities Should be Removed", RuleId, Inspect)
+                var rule = new Rule<IActivityModel>("Object References Required", RuleId, Inspect)
                 {
-                    RecommendationMessage = "Remove activity to avoid capturing sensitive data.",
+                    RecommendationMessage = "Put selector into relevant application's object repository.",
                     /// Off and Verbose are not supported.
                     ErrorLevel = System.Diagnostics.TraceLevel.Error
                 };
@@ -25,9 +27,9 @@ namespace WorkflowAnalyzerRules
             private static InspectionResult Inspect(IActivityModel activity, Rule ruleInstance)
             {
                 var messageList = new List<string>();
-                if ((activity.Type.ToLower().Contains("uiautomation")) && ((activity.ToolboxName.ToLower().Contains("screenshot")) | (activity.ToolboxName.ToLower().Contains("saveimage"))))
+                if ((activity.Type.ToLower().Contains("uiautomation")) && (activity.SupportsObjectReferences) && activity.ObjectReferences.Count > 0)
                 {
-                    messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as potentially saving PII.");
+                    messageList.Add($"The activity ''{activity.DisplayName}'' has been flagged as not using object references.");
                 }
                 if (messageList.Count > 0)
                 {
@@ -46,6 +48,5 @@ namespace WorkflowAnalyzerRules
                 }
             }
         }
-
     }
 }
