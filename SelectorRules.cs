@@ -13,7 +13,7 @@ namespace WorkflowAnalyzerRules
             private const string RuleId = "SG-SEL-001";
             internal static Rule<IActivityModel> Get()
             {
-                var rule = new Rule<IActivityModel>("Object References Needed", RuleId, Inspect)
+                var rule = new Rule<IActivityModel>("Object References Required", RuleId, Inspect)
                 {
                     RecommendationMessage = "Put selector into relevant application's object repository.",
                     /// Off and Verbose are not supported.
