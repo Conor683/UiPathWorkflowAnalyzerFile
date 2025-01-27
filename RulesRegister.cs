@@ -2,6 +2,7 @@
 using static WorkflowAnalyzerRules.SensitiveDataRules;
 using static WorkflowAnalyzerRules.LoopRules;
 using static WorkflowAnalyzerRules.SelectorRules;
+using static WorkflowAnalyzerRules.Logs;
 using UiPath.Studio.Activities.Api.Analyzer;
 using UiPath.Studio.Activities.Api;
 
@@ -24,6 +25,7 @@ namespace WorkflowAnalyzerRules
                 workflowAnalyzerConfigurationService.AddRule(ScreenshotActivitiesRule.Get());
                 workflowAnalyzerConfigurationService.AddRule(MaxIterationsRule.Get());
                 workflowAnalyzerConfigurationService.AddRule(NumOfRetriesRule.Get());
+                workflowAnalyzerConfigurationService.AddRule(OutputLogMessages.Get());
         }
     }
 }
