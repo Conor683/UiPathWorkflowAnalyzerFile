@@ -29,7 +29,7 @@ namespace WorkflowAnalyzerRules
                 var messageList = new List<string>();
                 if ((activity.ToolboxName.ToLower().Contains("logmessage")))
                 {
-                    messageList.Add($"{activity.DisplayName} - {activity.Arguments.First()}");
+                    messageList.Add($"{activity.DisplayName} | {activity.Arguments.First().DefinedExpression}");
                 }
                 if (messageList.Count > 0)
                 {
