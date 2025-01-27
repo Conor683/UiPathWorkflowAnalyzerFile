@@ -1,4 +1,4 @@
-# UiPathWorkFlowAnalyzerFile
+# UiPathWorkflowAnalyzerFile
 A custom workflow analyzer file I made based on UiPath templates. The individual rules are defined in many different cs files that are called in the rulesregister.cs file to be added to the UiPath workflow analyzer at runtime. Customly defined workflow analyzer rules enable you to enforce your organization's uipath coding standards more effectively and can even prevent projects with organizationally unacceptable code from moving into production if the right settings are enabled in automation ops. You can also add counters but they're not as important and function similarly enough to rules that you'll be able to figure them out.
 
 The goal of this project is that it can eventually be used as a template to understand how to effectively implement new rules and to speed up the development process.
