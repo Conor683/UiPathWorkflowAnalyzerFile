@@ -10,7 +10,7 @@ namespace WorkflowAnalyzerRules
         internal static class OutputLogMessages
         {
             // This should be as unique as possible, and should follow the naming convention.
-            private const string RuleId = "SG-LOG-001";
+            private const string RuleId = "CM-LOG-001";
             internal static Rule<IActivityModel> Get()
             {
                 var rule = new Rule<IActivityModel>("Log Message", RuleId, Inspect)

@@ -10,7 +10,7 @@ namespace WorkflowAnalyzerRules
         internal static class ClassicActivitiesRule
         {
             // This should be as unique as possible, and should follow the naming convention.
-            private const string RuleId = "SG-CLA-001";
+            private const string RuleId = "CM-CLA-001";
             internal static Rule<IActivityModel> Get()
             {
                 var rule = new Rule<IActivityModel>("Classic Activities Disallowed", RuleId, Inspect)
@@ -52,7 +52,7 @@ namespace WorkflowAnalyzerRules
 
         internal static class NumberOfClassicActivitiesInFile
         {
-            private const string RuleId = "SG-CLA-002";
+            private const string RuleId = "CM-CLA-002";
 
             internal static Counter<IActivityModel> Get()
             {

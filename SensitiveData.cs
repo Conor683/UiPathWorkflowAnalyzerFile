@@ -8,7 +8,7 @@ namespace WorkflowAnalyzerRules
         internal static class ScreenshotActivitiesRule
         {
             // This should be as unique as possible, and should follow the naming convention.
-            private const string RuleId = "SG-SCS-001";
+            private const string RuleId = "CM-SCS-001";
             internal static Rule<IActivityModel> Get()
             {
                 var rule = new Rule<IActivityModel>("Screenshotting Activities Should be Removed", RuleId, Inspect)
