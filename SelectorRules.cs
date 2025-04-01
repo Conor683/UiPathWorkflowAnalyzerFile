@@ -10,14 +10,14 @@ namespace WorkflowAnalyzerRules
         internal static class ObjectRepoUsageRule
         {
             // This should be as unique as possible, and should follow the naming convention.
-            private const string RuleId = "SG-SEL-001";
+            private const string RuleId = "CM-SEL-001";
             internal static Rule<IActivityModel> Get()
             {
                 var rule = new Rule<IActivityModel>("Object References Required", RuleId, Inspect)
                 {
                     RecommendationMessage = "Put selector into relevant application's object repository.",
                     /// Off and Verbose are not supported.
-                    ErrorLevel = System.Diagnostics.TraceLevel.Error
+                    ErrorLevel = System.Diagnostics.TraceLevel.Warning
                 };
                 return rule;
             }

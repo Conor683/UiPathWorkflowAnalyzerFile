@@ -10,7 +10,7 @@ namespace WorkflowAnalyzerRules
         internal static class MaxIterationsRule
         {
             // This should be as unique as possible, and should follow the naming convention.
-            private const string RuleId = "SG-LOO-001";
+            private const string RuleId = "CM-LOO-001";
             internal static Rule<IActivityModel> Get()
             {
                 var rule = new Rule<IActivityModel>("Max Iterations Empty", RuleId, Inspect)
@@ -56,7 +56,7 @@ namespace WorkflowAnalyzerRules
         internal static class NumOfRetriesRule
         {
             // This should be as unique as possible, and should follow the naming convention.
-            private const string RuleId = "SG-LOO-002";
+            private const string RuleId = "CM-LOO-002";
             internal static Rule<IActivityModel> Get()
             {
                 var rule = new Rule<IActivityModel>("Number of Retries Property Empty", RuleId, Inspect)
